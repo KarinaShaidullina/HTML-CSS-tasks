@@ -1,1 +1,284 @@
+.header__nav__link{
+    text-decoration: none;
+    color: #323232;
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 21px;  
+    word-wrap: break-word   
+}
 
+.header__nav__list{
+    list-style-type: none;
+}
+
+.title{
+    color: #57463A;
+    font-size: 48px;
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+    word-wrap: break-word   
+}
+
+.text{
+    color: black;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.text2{
+    color: black;
+    font-size: 24px;
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word
+}
+
+.text3{
+    color: #323232;
+    font-size: 24px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 36px;
+    word-wrap: break-word
+}
+
+.button{
+    width: 245px; 
+    height: 60px; 
+    background: #A1B29F
+}
+
+.button_text{
+    color: #F6F6F6;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word   
+}
+
+.footer__nav__item{
+    text-decoration: none;
+    color: #F6F6F6;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.footer__nav__list{
+    list-style-type: none;
+}
+
+.span_main{
+    color: #F6F6F6;
+}
+
+.button_main{
+    background: #F6F6F6;
+    width: 328px; 
+    height: 60px;
+}
+
+.button_main_text{
+    color: #715B4B;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.text4{
+    color: #323232;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.title2{
+    color: #323232;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word    
+}
+
+.text5{
+    color: #323232;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 16.48px;
+    word-wrap: break-word
+}
+
+.button_main_text2{
+    color: #4C6D77;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word   
+}
+
+.text6{
+    color: #323232;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 16.48px;
+    word-wrap: break-word
+}
+
+.button2{
+    width: 328px; 
+    height: 60px; 
+    background: #A1B29F
+}
+
+.text7{
+    color: black;
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.circle{
+    background: #A1B29F;
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50%);
+}
+
+.circle_text{
+    text-align: center;
+    color: #F6F6F6;
+    font-size: 24px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    word-wrap: break-word   
+}
+
+.text8{
+    color: #323232;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.text9{
+    color: #323232;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 300;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.title3{
+    color: #57463A;
+    font-size: 48px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    line-height: 57.60px;
+    word-wrap: break-word
+}
+
+.text10{
+    color: #323232;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 300;
+    line-height: 27px;
+    word-wrap: break-word   
+}
+
+.text11{
+    color: #57463A;
+    font-size: 48px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    line-height: 57.60px;
+    word-wrap: break-word
+}
+
+.text12{
+    color: #323232;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 300;
+    line-height: 18.54px;
+    word-wrap: break-word
+}
+
+.body{
+    background-color: #F3EFEA;
+}
+
+.custom_furniture{
+    background: linear-gradient(180deg, rgba(49.94, 49.94, 49.94, 0.50) 62%, rgba(0, 0, 0, 0) 100%);
+    background-image: url(/img/carpentry_workshop.png);   
+    height: 639px;
+    background-size: cover;   
+}
+
+.footer{
+    background: #715B4B;
+}
+
+.main{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 58%, rgba(0, 0, 0, 0) 100%);
+    background-image: url(/img/master_classes_wood1.png);
+    height: 601px;
+    background-size: cover;
+}
+
+.second_life{  
+    background-image: url(/img/master_classes_wood2.png);
+    height: 508px;
+    background-size: cover;
+}
+
+.service_1{
+    background: #E3DACE;
+}
+
+.service_2{
+    background: #D4CDC3;
+}
+
+.founders{
+    background: #EBEEEB;
+}
+
+/*.line{
+    transform: rotate(90deg); 
+    /*transform-origin: 0 0; 
+    border: 1px #C4C4C4 solid;
+    width: 643px;
+    padding: 2343 957 4003 483;
+}
+*/
+.techniques_list{
+    list-style-type: none;
+}
+
+.stages_list{
+    list-style-type: none;
+}
