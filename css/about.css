@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #F3EFEA;
+    color: black;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word  
+}
+
+h1,h2{
+    margin: 0;
+    color: #57463A;
+    font-size: 48px;
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+    word-wrap: break-word   
+}
+
+button{
+    border: none; 
+    outline: none; 
+    background: #A1B29F;
+    width: 245px; 
+    height: 60px;
+    color: #F6F6F6;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word   
+}
+
+.header__nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: 1px black solid;
+    padding: 30px 141px 20.5px;
+    margin-bottom: 120.5px;
+}
+
+.header__nav__link{
+    text-decoration: none;
+    color: #323232;
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 21px;  
+    word-wrap: break-word   
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.history_title{
+    margin-bottom: 19px;
+}
+
+.history_img{
+    margin: 40px 140px 157.5px;
+} 
+
+.history_card{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 140px 160px;  
+}
+    
+.founder{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px 140px 160px;
+}
+
+.founder_info{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.founder_text{   
+    margin-bottom: 70px;    
+}
+
+.founder_title{
+    color: black;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+
+.philosophy_title{
+    padding-left: 138px;
+}
+
+.philosophy_text{
+    padding: 70px 145px 0 0;
+    margin-bottom: 160px;
+    text-align: end;
+    color: #323232;
+    font-size: 24px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 36px;
+    word-wrap: break-word   
+}
+
+.mass_media{
+    text-align: left; 
+}
+
+.mass_media_title{
+    margin: 0 0 100px 138px ;
+}
+
+.mass_media_img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 210px 165.24px 219px;
+}
+
+.mass_media_text{
+    margin-top: 20px;
+    color: #323232;
+}
+
+.application{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 243px;
+}
+
+.application_title{
+    margin: 0 136px 100px 0;
+}
+
+.footer{
+    background: #715B4B;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 84px 140px 190px;
+}
+
+.footer__nav__item{
+    text-decoration: none;
+    color: #F6F6F6;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.footer__nav__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_social_networks :first-child{
+    padding-right: 10px;
+}
+
+.footer_social_networks p{
+    padding-top: 32px;
+}
+
