@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -12,14 +12,14 @@
 	<title>Furniture to order</title>
 </head>
 
-<body class="body">
+<body>
 	<header class="header">
 		<nav class="header__nav">
 			<ul class="header__nav__list">
 				<li><a class="header__nav__link" href="master.html">Мастер-классы</a></li>
 				<li><a class="header__nav__link" href="index.html">Мебель на заказ</a></li>
 				<li class="logo"><img src="img/logo.svg" alt="logo"></li>
-				<li><a class="header__nav__link" href="">Контакты</a></li>
+				<li><a class="header__nav__link" href="prototype.html">Контакты</a></li>
 				<li><a class="header__nav__link" href="about.html">О нас</a></li>
 			</ul>			
 		</nav>
@@ -27,49 +27,56 @@
 
 	<main>
 		<section class="custom_furniture">
-			<!-- <img src="img/carpentry_workshop.png" alt="carpentry_workshop"> -->
-			<p class="text"><span class="span_main">Воплотим вашу любую задумку в реальность</span></p>
-			<h1 class="title"><span class="span_main">Столярная мастерская</span></h1>
-			<h1 class="title"><span class="span_main">NIKASON BRAND</span></h1>
-			<button class="button_main"><p class="button_main_text">Заказать мебель</p></button>
+			<div class="custom_furniture_title">
+				<p class="custom_furniture_slogan">Воплотим вашу любую задумку в реальность</p>
+			    <h1>Столярная мастерская</h1>
+			    <h2 class="custom_furniture_text">NIKASON BRAND</h2>
+			</div>
+			<button>Заказать мебель</button>
 		</section> 
 
 		<section class="advantages">
-			<div>
-				<h1 class="title">Почему выбирают нас</h1>
-				<div>
-					<p class="title2">Давно на рынке</p>
-					<p class="text4">Опыт работы на рынке больше 10 лет</p>
+			<h2>Почему выбирают нас</h2>	
+				<div class="advantages_cards">
+					<div class="advantages_card">
+						<div>
+							<p class="advantages_title">Давно на рынке</p>
+							<p>Опыт работы на рынке <br> больше 10 лет</p>
+						</div>
+						<div>
+							<p class="advantages_title">Экологичность</p>
+							<p>Мебель из натуральной древесины, <br> краски без токсичного состава</p>
+						</div>
+					</div>
+					<div class="advantages_card">
+						<div>
+							<p class="advantages_title">Гарантия качества</p>
+							<p>Предоставляем гарантию <br> 12 месяцев на изделия</p>
+						</div>
+						<div>
+							<p class="advantages_title">Эксклюзивность</p>
+							<p>Каждая мебель изготовлена по <br> индивидуальному дизайну</p>
+						</div>
+					</div>
+					<div class="advantages_card">
+						<div>
+							<p class="advantages_title">Юридическая прозрачность</p>
+							<p>Заключаем с каждым клиентом <br> договор</p>
+						</div>
+						<div>
+							<p class="advantages_title">Долговечность</p>
+							<p>Мебель из массива дерева <br> прослужит даже вашим детям</p>
+						</div>
+					</div>
 				</div>
-				<div>
-					<p class="title2">Гарантия качества</p>
-					<p class="text4">Предоставляем гарантию 12 месяцев на изделия</p>
-				</div>
-				<div>
-					<p class="title2">Юридическая прозрачность</p>
-					<p class="text4">Заключаем с каждым клиентом договор</p>
-				</div>
-				<div>
-					<p class="title2">Экологичность</p>
-					<p class="text4">Мебель из натуральной древесины, краски без токсичного состава</p>
-				</div>
-				<div>
-					<p class="title2">Эксклюзивность</p>
-					<p class="text4">Каждая мебель изготовлена по индивидуальному дизайну</p>
-				</div>
-				<div>
-					<p class="title2">Долговечность</p>
-					<p class="text4">Мебель из массива дерева прослужит даже вашим детям</p>
-				</div>
-			</div>
 		</section>
 
-		<section class="portfolio">
-			<h1 class="title">Портфолио</h1>
-			<div>
+		<section>
+			<h2 class="portfolio_title">Портфолио</h2>
+			<div class="portfolio">
 				<img src="img/portfolio_1.jpg" alt="portfolio_1">								
-			</div>
-			<div>
+			<div class="portfolio_gallery">
+				<img src="img/arrow-left.svg" alt="arrow-left">
 				<img src="img/portfolio_2.jpg" alt="portfolio_2">
 				<img src="img/portfolio_3.jpg" alt="portfolio_3">
 				<img src="img/portfolio_4.jpg" alt="portfolio_4">
@@ -77,42 +84,48 @@
 				<img src="img/portfolio_6.jpg" alt="portfolio_6">
 				<img src="img/portfolio_7.jpg" alt="portfolio_7">
 				<img src="img/portfolio_8.jpg" alt="portfolio_8">
+				<img src="img/arrow-right.svg" alt="arrow-right">
+			</div>
 			</div>
 		</section>
 
 		<section class="stages">
-			<h1 class="title">Этапы производства</h1>
-			<ul class="stages_list">
-				<li class="text5">
-					<p class="title">1</p>
-					<p>Встреча с клиентом</p>			
-				</li>
-				<li class="text5">
-					<p class="title">2</p>
-					<p>Подписание договора, внесение предоплаты</p>					
-				</li>
-				<li class="text5">
-					<p class="title">3</p>
-					<p>Выезд к клиенту на замер (при необходимости)</p>					
-				</li>
-				<li class="text5">
-					<p class="title">4</p>
-					<p>Составление проекта</p>					
-				</li>
-				<li class="text5">
-					<p class="title">5</p>
-					<p>Изготовление и согласование всех стадий с клиентом</p>				
-				</li>
-				<li class="text5">
-					<p class="title">6</p>
-					<p>Доставка и монтаж изделия (при необходимости)</p>				
-				</li>
-			</ul>
+			<h2 class="stages_title">Этапы производства</h2>
+			<div class="stages_table">
+				<div class="stages_table_row">
+					<div class="stages_table_item">
+						<h2 class="stages_numeration">1</h2>
+						<p class="stages_text">Встреча с клиентом</p>
+					</div>
+					<div class="stages_table_item">
+						<h2 class="stages_numeration">2</h2>
+						<p class="stages_text">Подписание договора, <br> внесение предоплаты</p>	
+					</div>
+					<div class="stages_table_item">
+						<h2 class="stages_numeration">3</h2>
+						<p class="stages_text">Выезд к клиенту на замер <br> (при необходимости)</p>	
+					</div>
+				</div>
+				<div class="stages_table_row">
+					<div class="stages_table_item">
+						<h2 class="stages_numeration">4</h2>
+						<p class="stages_text">Составление проекта</p>	
+					</div>
+					<div class="stages_table_item">
+						<h2 class="stages_numeration">5</h2>
+						<p class="stages_text">Изготовление и согласование <br> всех стадий с клиентом</p>
+					</div>
+					<div class="stages_table_item">
+						<h2 class="stages_numeration">6</h2>
+						<p class="stages_text">Доставка и монтаж изделия <br> (при необходимости)</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="about">
-			<h1 class="title">Клиенты о нас</h1>
-			<div>
+			<h2 class="about_title">Клиенты о нас</h2>
+			<div class="about_images">
 				<img src="img/review_1.jpg" alt="review_1">
 				<img src="img/review_2.jpg" alt="review_2">
 				<img src="img/review_3.jpg" alt="review_3">
@@ -122,26 +135,32 @@
 		</section>
         
         <section class="application">
-            <h1 class="title">Оставьте заявку и мы с вами свяжемся</h1>
-			<button class="button"><p class="button_text">Оставить заявку</p></button>
+            <h2>Оставьте заявку и мы с вами свяжемся</h2>
+			<button class="application_button">Оставить заявку</button>
         </section>
 	</main>
 	
     <footer class="footer">
-		<nav class="footer_nav">
+		<nav class="footer__nav">
 			<ul class="footer__nav__list">
 				<li class="footer__nav__item">
 					<p>ИП Колодезников-Матчитов Н.И.</p>
-					<p>ИНН 143515646663</p>
+			        <p>ИНН 143515646663</p>
 				</li>
+			</ul>
+			<ul class="footer__nav__list">
 				<li><a class="footer__nav__item" href="master.html">Мастер-классы</a></li>
 				<li><a class="footer__nav__item" href="index.html">Мебель на заказ</a></li>
-				<li><a class="footer__nav__item" href="">Контакты</a></li>
+			</ul>
+			<ul class="footer__nav__list">
+				<li><a class="footer__nav__item" href="prototype.html">Контакты</a></li>
 				<li><a class="footer__nav__item" href="about.html">О нас</a></li>
+			</ul>
+			<ul class="footer__nav__list">		
 				<li><a class="footer__nav__item" href="">Политика кофиденциальности</a></li>
 				<li><a class="footer__nav__item" href="">Договор оферты</a></li>
 			</ul>
-			<div>													
+			<div class="footer_social_networks"> 													
 				<a href=""><img src="img/instagram.svg" alt="instagram"></a>
 				<a href=""><img src="img/whatsapp.svg" alt="whatsapp"></a>			
 		    </div>
