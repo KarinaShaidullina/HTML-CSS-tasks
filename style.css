@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #fefcfb;
+    color: #323232;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word  
+}
+
+h1, h2{
+    margin: 0;
+    color: #57463A;
+    font-size: 48px;
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.header__nav__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 140px 20.5px 142px;
+    border-bottom: 1px black solid;
+}
+
+.header__nav__link{
+    text-decoration: none;
+    color: #323232;
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    line-height: 21px;  
+    word-wrap: break-word   
+}
+
+.cards_products{
+    margin: 90px 120px;
+}
+
+.card img{
+    width: 335px;
+    height: 324px;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.left_btn, .right_btn{
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.full_photo img{
+    width: 600px;
+    height: 580px;
+}
+
+.small_photo{
+    width: 103px;
+    height: 102px;
+}
+
+.gallery_small{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.gallery{
+    margin: 0 261px 160px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_employee{
+    margin: 90px 120px;
+}
+
+.gallery_title{
+    margin-left: 120px;
+    margin-bottom: 70px;
+}
+
+.promotion{
+    margin: 90px 120px;
+}
+
+.promotion_card{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px 40px; 
+}
+
+.promotion_text{
+   margin-top: 50px;
+   margin-right: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px ;
+}
+
+.footer{
+    background: rgb(204, 235, 204);
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 84px 140px 239px;
+}
+
+.footer_social_networks :first-child{
+    padding-right: 10px;
+}
